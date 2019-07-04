@@ -14,6 +14,9 @@ public class CardFragmentPagerAdapter extends FragmentStatePagerAdapter implemen
     private List<CardFragment> fragments;
     private float baseElevation;
 
+
+
+
     public CardFragmentPagerAdapter(FragmentManager fm, float baseElevation) {
         super(fm);
         fragments = new ArrayList<>();
